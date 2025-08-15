@@ -1,3 +1,4 @@
+# config/settings.py
 import os
 from dotenv import load_dotenv
 
@@ -16,9 +17,9 @@ class Settings:
     CHUNK_SIZE = 1500
     CHUNK_OVERLAP = 200
     
-    # Vector Store Settings
+    # Vector Store Settings - Updated for FAISS
     COLLECTION_NAME = "code_documentation"
-    PERSIST_DIRECTORY = "./chroma_db"
+    PERSIST_DIRECTORY = "./faiss_index"  # Changed from ./chroma_db
     
     # Retrieval Settings
     TOP_K = 5
