@@ -2,7 +2,7 @@ streamlit
 langchain
 langchain-community
 langchain-openai
-chromadb
+qdrant-client
 sentence-transformers
 PyGithub
 python-dotenv
