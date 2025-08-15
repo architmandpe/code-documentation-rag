@@ -117,7 +117,7 @@ class TestVectorStore(unittest.TestCase):
         self.assertEqual(stats['collection_name'], 'test_collection')
         self.assertEqual(stats['total_documents'], 0)
     
-    @patch('src.vector_store.FAISS')  # Changed from Chroma to FAISS
+    @patch('src.vector_store.FAISS')  
     def test_add_documents(self, mock_faiss):
         from langchain.schema import Document
         
