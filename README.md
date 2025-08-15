@@ -57,12 +57,3 @@ Example Queries
 "What are the API endpoints for user management?"
 "Explain the main class architecture"
 "How to implement error handling in this project?"
-
-┌─────────────────┐     ┌──────────────┐     ┌──────────────┐
-│  GitHub Loader  │────▶│ Code Parser  │────▶│   Chunker    │
-└─────────────────┘     └──────────────┘     └──────────────┘
-                                                      │
-                                                      ▼
-┌─────────────────┐     ┌──────────────┐     ┌──────────────┐
-│    Generator    │◀────│  Retriever   │◀────│ Vector Store │
-└─────────────────┘     └──────────────┘     └──────────────┘
