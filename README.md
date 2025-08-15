@@ -37,20 +37,20 @@ pip install -r requirements.txt
 
 bash
 cp .env.example .env
-# Edit .env and add your API keys
+Edit .env and add your API keys
 
 4. Run the application:
 
 bashstreamlit run app.py
 
-📖 Usage
+###📖 Usage
 
 Enter API Keys: Add your OpenAI API key in the sidebar
 Load Repository: Enter a GitHub repository URL and click "Load Repository"
 Ask Questions: Type your questions about the code in the main interface
 Get Answers: Receive detailed explanations, code examples, or API documentation
 
-Example Queries
+###Example Queries
 
 "How does the authentication system work?"
 "Show me examples of database connections"
